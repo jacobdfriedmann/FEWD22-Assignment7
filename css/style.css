@@ -288,5 +288,30 @@ footer p {
   font-weight: 600;
 }
 
+.hamburger {
+  display: none;
+}
 
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+ /*  section {
+    font-size: .6rem;
+  }*/
+
+    .hamburger {
+      display: block;
+  }
+
+  #posts {
+    width: 100%;
+  }
+
+}
 
