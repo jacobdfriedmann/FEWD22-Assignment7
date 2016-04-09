@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Responsive
+Client: Relaxr
+Author: Sabrina Mohsenin
+Developer @GA in DC
 */
 
 
@@ -288,5 +288,44 @@ footer p {
   font-weight: 600;
 }
 
+#hamburger {
+  display: none;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 768px){
+body {
+  margin: 0;
+  padding: 1rem;
+}
+.container{
+  width: 100%;
+}
+nav ul {
+    display: none;
+  }
+
+  #posts, #sidebar {
+    width: 100%;
+  }
+
+  nav a {
+    color: white;
+  }
+  
+  #hamburger {
+    display:inline;
+    color: white;
+  }
 
 
+
+img {
+  width: 100%;
+}
+
+h2 {
+  font-size: 7REM;
+}
+}
