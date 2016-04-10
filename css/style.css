@@ -65,7 +65,7 @@ a {
 /* Center the container */
 .container {
   width: 960px;
-  margin: 0 auto;
+  margin: auto;
 }
 .logo {
   font-size: 48px;
@@ -288,5 +288,65 @@ footer p {
   font-weight: 600;
 }
 
+
+@media screen and (max-width: 768px) {
+    
+    .container {
+      width: 100%;
+      padding: 0 0;
+    }
+      nav ul {
+        display: none;
+}
+    .post p {
+        width: 100%;
+        font-size: .8rem;
+    }
+    .post h2 {
+      font-size: 1rem;
+    }
+    .post p:first-of-type:first-letter {
+      display: none;
+}
+    #sidebar {
+      float: right;
+      width: 100%;
+    }
+
+  #hero h2 {
+    font-size: .8rem;
+    width: 100%;
+  }
+  #hero a {
+    font-size: .8rem;
+  }
+  #benefits h3 {
+    font-size: .8rem;
+  }
+  #benefits p {
+    font-size: .8rem;
+  }
+
+  #benefits ul {
+    font-size: .8rem;
+  }
+
+  blockquote {
+    font-size: .8rem;
+    width: 100%;
+
+  }
+  .button {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .logo {
+  font-size: 1.1rem;
+}
+  footer p {
+    font-size: .8rem;
+  }
+
+}
 
 
